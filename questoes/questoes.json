@@ -16,5 +16,23 @@
     "imagens": [],
     "fonte": "REVALIDA 2021 (via El Doctor Gabo QBank)",
     "id": 1
+  },
+  {
+    "instituicao": "REVALIDA",
+    "ano": "2024.1",
+    "area": "PEDIATRIA",
+    "subarea": "Distúrbios Respiratórios do Período Neonatal",
+    "topico": "",
+    "enunciado": "Um neonato, com idade gestacional (IG) de 36 semanas, adequado para IG, com pré-natal regular, nascido de parto normal, APGAR 8/9, apresentou desconforto respiratório com 30 minutos de vida.\nAo exame físico, nota-se atividade regular, frequência respiratória de 82 irpm, retrações intercostais e subcostais de moderada intensidade e ausculta pulmonar sem ruídos. Sua saturação de O2 é de 95% em ar ambiente, sua frequência cardíaca é de 148 bpm e apresenta ritmo cardíaco regular em dois tempos, com bulhas normofonéticas, sem sopros. Além disso, o tempo de enchimento capilar é < 2 segundos; os pulsos estão palpáveis, cheios e simétricos; sua pressão arterial é de 60 x 40 mmHg; e seu fígado está a 2 cm do rebordo costal direito.\nCom base nessas informações, a conduta médica imediata e adequada para o caso é",
+    "alternativas": {
+      "A": "utilizar capuz de oxigênio a 40%, realizar fisioterapia respiratória e colher hemograma e proteína C reativa.",
+      "B": "utilizar cateter de O2 (2 L/min), realizar hidratação venosa, fisioterapia respiratória e solicitar radiografia de tórax.",
+      "C": "realizar intubação endotraqueal, administrar surfactante via endotraqueal e extubar logo após, colocando o neonato sob cateter nasal de O2 (2 L/min).",
+      "D": "realizar ventilação não invasiva com concentração de oxigênio necessária para manter saturação de O2 igual ou acima de 95% e solicitar radiografia de tórax."
+    },
+    "gabarito": null,
+    "imagens": [],
+    "fonte": "REVALIDA 2024.1 (via El Doctor Gabo QBank)",
+    "id": 2
   }
 ]

@@ -185,18 +185,27 @@ def main():
             questoes = json.load(f)
     except FileNotFoundError:
         questoes = []
-    vistas = {chave(q) for q in questoes}
+    vistas = {chave(q): q for q in questoes}
 
-    novas = 0
+    novas = completadas = 0
     for caminho in args.arquivos:
         try:
             q = extrair(caminho, args.com_comentarios)
         except ValueError as e:
             print(f"aviso: {e}", file=sys.stderr)
             continue
-        if chave(q) in vistas:
+        existente = vistas.get(chave(q))
+        if existente is not None:
+            # A mesma questão salva de novo depois de respondida completa o que faltava.
+            if not existente.get("gabarito") and q["gabarito"]:
+                for campo in ("gabarito", "comentarios_alternativas", "raciocinio"):
+                    if campo in q:
+                        existente[campo] = q[campo]
+                completadas += 1
             continue
-        vistas.add(chave(q))
+        if not q["gabarito"]:
+            print(f"aviso: {caminho}: sem gabarito (salve a página depois de responder)", file=sys.stderr)
+        vistas[chave(q)] = q
         questoes.append(q)
         novas += 1
 
@@ -215,7 +224,9 @@ def main():
                         q["enunciado"], *[q["alternativas"].get(l, "") for l in letras],
                         q["gabarito"] or "", q["fonte"]])
 
-    print(f"{novas} questão(ões) nova(s); total {len(questoes)} em {args.saida}.json/.csv")
+    sem_gabarito = sum(1 for q in questoes if not q.get("gabarito"))
+    print(f"{novas} questão(ões) nova(s), {completadas} completada(s); total {len(questoes)} "
+          f"({sem_gabarito} sem gabarito) em {args.saida}.json/.csv")
 
 
 if __name__ == "__main__":
