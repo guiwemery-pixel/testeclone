@@ -12,8 +12,14 @@
       "D": "Errada. Dopamina é opção para bradicardia instável que não respondeu à atropina, o que não é o caso."
     },
     "fontes": [
-      {"citacao": "Panchal AR et al. Part 3: Adult Basic and Advanced Life Support: 2020 American Heart Association Guidelines for CPR and ECC. Circulation. 2020;142(16 Suppl 2):S366-S468. PMID 33081529.", "url": "https://pubmed.ncbi.nlm.nih.gov/33081529/"},
-      {"citacao": "Kusumoto FM et al. 2018 ACC/AHA/HRS Guideline on the Evaluation and Management of Patients With Bradycardia and Cardiac Conduction Delay. Circulation. 2019;140:e382-e482.", "url": "https://acc.org/Latest-in-Cardiology/ten-points-to-remember/2018/11/05/15/12/2018-ACC-AHA-HRS-Guideline-on-Bradycardia"}
+      {
+        "citacao": "Panchal AR et al. Part 3: Adult Basic and Advanced Life Support: 2020 American Heart Association Guidelines for CPR and ECC. Circulation. 2020;142(16 Suppl 2):S366-S468. PMID 33081529.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/33081529/"
+      },
+      {
+        "citacao": "Kusumoto FM et al. 2018 ACC/AHA/HRS Guideline on the Evaluation and Management of Patients With Bradycardia and Cardiac Conduction Delay. Circulation. 2019;140:e382-e482.",
+        "url": "https://acc.org/Latest-in-Cardiology/ten-points-to-remember/2018/11/05/15/12/2018-ACC-AHA-HRS-Guideline-on-Bradycardia"
+      }
     ]
   },
   "revalida-2025-1-q02": {
@@ -25,7 +31,10 @@
       "D": "Errada. Diverticulite começa em fossa ilíaca esquerda; a história de AINE com dor epigástrica aponta para úlcera."
     },
     "fontes": [
-      {"citacao": "Tarasconi A et al. Perforated and bleeding peptic ulcer: WSES guidelines. World J Emerg Surg. 2020. doi:10.1186/s13017-019-0283-9.", "url": "https://wjes.biomedcentral.com/track/pdf/10.1186/s13017-019-0283-9"}
+      {
+        "citacao": "Tarasconi A et al. Perforated and bleeding peptic ulcer: WSES guidelines. World J Emerg Surg. 2020. doi:10.1186/s13017-019-0283-9.",
+        "url": "https://wjes.biomedcentral.com/track/pdf/10.1186/s13017-019-0283-9"
+      }
     ]
   },
   "revalida-2025-1-q03": {
@@ -37,7 +46,10 @@
       "D": "Errada. P1 significa ausência de pelos pubianos, ou seja, não há pubarca."
     },
     "fontes": [
-      {"citacao": "Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas da Puberdade Precoce Central. Portaria Conjunta nº 13, de 27 de julho de 2022.", "url": "https://www.gov.br/saude/pt-br/assuntos/pcdt/arquivos/2022/portaria-conjunta-no-13-pcdt-puberdade-precoce-central.pdf"}
+      {
+        "citacao": "Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas da Puberdade Precoce Central. Portaria Conjunta nº 13, de 27 de julho de 2022.",
+        "url": "https://www.gov.br/saude/pt-br/assuntos/pcdt/arquivos/2022/portaria-conjunta-no-13-pcdt-puberdade-precoce-central.pdf"
+      }
     ]
   },
   "revalida-2025-1-q04": {
@@ -49,7 +61,10 @@
       "D": "Errada. No aborto em evolução (inevitável) o colo está aberto e o sangramento é maior."
     },
     "fontes": [
-      {"citacao": "Ministério da Saúde. Manual de Gestação de Alto Risco. Brasília: Ministério da Saúde, 2022.", "url": "https://bvsms.saude.gov.br/bvs/publicacoes/manual_gestacao_alto_risco.pdf"}
+      {
+        "citacao": "Ministério da Saúde. Manual de Gestação de Alto Risco. Brasília: Ministério da Saúde, 2022.",
+        "url": "https://bvsms.saude.gov.br/bvs/publicacoes/manual_gestacao_alto_risco.pdf"
+      }
     ]
   },
   "revalida-2025-1-q05": {
@@ -61,8 +76,14 @@
       "D": "Correta. Higiene de roupas e ambiente e ivermectina por peso, repetida, para todos da cela."
     },
     "fontes": [
-      {"citacao": "CDC. Sexually Transmitted Infections Treatment Guidelines, 2021: Ectoparasitic infections (escabiose: ivermectina 200 mcg/kg VO, repetida em 14 dias). Resumo do National STD Curriculum (Universidade de Washington).", "url": "https://cdn.std.uw.edu/pdf/2021-guidelines/ectoparasitic-infections/core-concept/all"},
-      {"citacao": "Federal Bureau of Prisons (EUA). Management of Scabies: Clinical Guidance (tratamento simultâneo de casos e contatos em instituições).", "url": "https://www2.fed.bop.gov/resources/pdfs/scabies_cg.pdf"}
+      {
+        "citacao": "CDC. Sexually Transmitted Infections Treatment Guidelines, 2021: Ectoparasitic infections (escabiose: ivermectina 200 mcg/kg VO, repetida em 14 dias). Resumo do National STD Curriculum (Universidade de Washington).",
+        "url": "https://cdn.std.uw.edu/pdf/2021-guidelines/ectoparasitic-infections/core-concept/all"
+      },
+      {
+        "citacao": "Federal Bureau of Prisons (EUA). Management of Scabies: Clinical Guidance (tratamento simultâneo de casos e contatos em instituições).",
+        "url": "https://www2.fed.bop.gov/resources/pdfs/scabies_cg.pdf"
+      }
     ]
   },
   "revalida-2025-1-q06": {
@@ -74,8 +95,14 @@
       "D": "Errada. Mantém o levofloxacino."
     },
     "fontes": [
-      {"citacao": "Coelho LGV et al. IVth Brazilian Consensus Conference on Helicobacter pylori infection. Arq Gastroenterol. 2018;55(2):97-121. doi:10.1590/S0004-2803.201800000-20.", "url": "https://doi.org/10.1590/S0004-2803.201800000-20"},
-      {"citacao": "Malfertheiner P et al. Management of Helicobacter pylori infection: the Maastricht VI/Florence consensus report. Gut. 2022. doi:10.1136/gutjnl-2021-326105.", "url": "https://doi.org/10.1136/gutjnl-2021-326105"}
+      {
+        "citacao": "Coelho LGV et al. IVth Brazilian Consensus Conference on Helicobacter pylori infection. Arq Gastroenterol. 2018;55(2):97-121. doi:10.1590/S0004-2803.201800000-20.",
+        "url": "https://doi.org/10.1590/S0004-2803.201800000-20"
+      },
+      {
+        "citacao": "Malfertheiner P et al. Management of Helicobacter pylori infection: the Maastricht VI/Florence consensus report. Gut. 2022. doi:10.1136/gutjnl-2021-326105.",
+        "url": "https://doi.org/10.1136/gutjnl-2021-326105"
+      }
     ]
   },
   "revalida-2025-1-q08": {
@@ -87,7 +114,10 @@
       "D": "Errada. Massa em fossa ilíaca direita (plastrão) não foi descrita neste caso."
     },
     "fontes": [
-      {"citacao": "Di Saverio S et al. Diagnosis and treatment of acute appendicitis: 2020 update of the WSES Jerusalem guidelines. World J Emerg Surg. 2020. doi:10.1186/s13017-020-00306-3.", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7386163/"}
+      {
+        "citacao": "Di Saverio S et al. Diagnosis and treatment of acute appendicitis: 2020 update of the WSES Jerusalem guidelines. World J Emerg Surg. 2020. doi:10.1186/s13017-020-00306-3.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7386163/"
+      }
     ]
   },
   "revalida-2025-1-q09": {
@@ -99,9 +129,18 @@
       "D": "Errada. Mantém a losartana; a investigação de hipertensão secundária não é a prioridade inicial."
     },
     "fontes": [
-      {"citacao": "FEBRASGO. Protocolo nº 19 (Obstetrícia): Hipertensão na gestação. Coleção de protocolos 2024-2025.", "url": "https://www.febrasgo.org.br/images/pec/CNE_pdfs/fps2024/Protocolos%20cole%C3%A7%C3%A3o%202024-2025/n19%20-%20O%20-%20Hipertens%C3%A3o%20na%20gesta%C3%A7%C3%A3o.pdf"},
-      {"citacao": "Ministério da Saúde. Manual de Gestação de Alto Risco. Brasília: Ministério da Saúde, 2022.", "url": "https://bvsms.saude.gov.br/bvs/publicacoes/manual_gestacao_alto_risco.pdf"},
-      {"citacao": "FDA. Bula do Cozaar (losartana): advertência em destaque 'Fetal toxicity: discontinue as soon as possible when pregnancy is detected' (cópia da bula aprovada pela FDA).", "url": "https://rsc.niaid.nih.gov/sites/default/files/losartan-potassium_cozaar_pi-december-2015.pdf"}
+      {
+        "citacao": "FEBRASGO. Protocolo nº 19 (Obstetrícia): Hipertensão na gestação. Coleção de protocolos 2024-2025.",
+        "url": "https://www.febrasgo.org.br/images/pec/CNE_pdfs/fps2024/Protocolos%20cole%C3%A7%C3%A3o%202024-2025/n19%20-%20O%20-%20Hipertens%C3%A3o%20na%20gesta%C3%A7%C3%A3o.pdf"
+      },
+      {
+        "citacao": "Ministério da Saúde. Manual de Gestação de Alto Risco. Brasília: Ministério da Saúde, 2022.",
+        "url": "https://bvsms.saude.gov.br/bvs/publicacoes/manual_gestacao_alto_risco.pdf"
+      },
+      {
+        "citacao": "FDA. Bula do Cozaar (losartana): advertência em destaque 'Fetal toxicity: discontinue as soon as possible when pregnancy is detected' (cópia da bula aprovada pela FDA).",
+        "url": "https://rsc.niaid.nih.gov/sites/default/files/losartan-potassium_cozaar_pi-december-2015.pdf"
+      }
     ]
   },
   "revalida-2025-1-q10": {
@@ -113,9 +152,17 @@
       "D": "Errada. Não existe obrigação de registrar boletim de ocorrência; revelar o fato viola o sigilo médico."
     },
     "fontes": [
-      {"citacao": "Conselho Federal de Medicina. Código de Ética Médica (Resolução CFM nº 2.217/2018), art. 73: sigilo profissional."},
-      {"citacao": "STJ. HC 783.927-MG (2023): sigilo médico e comunicação às autoridades em aborto (resumo do julgado).", "url": "https://informativos.trilhante.com.br/julgados/stj-hc-783927-mg"},
-      {"citacao": "Ministério da Saúde. Atenção Humanizada ao Abortamento: norma técnica. 2ª ed. Brasília, 2011.", "url": "https://portaldeboaspraticas.iff.fiocruz.br/biblioteca/atencao-humanizada-ao-abortamento-norma-tecnica/"}
+      {
+        "citacao": "Conselho Federal de Medicina. Código de Ética Médica (Resolução CFM nº 2.217/2018), art. 73: sigilo profissional."
+      },
+      {
+        "citacao": "STJ. HC 783.927-MG (2023): sigilo médico e comunicação às autoridades em aborto (resumo do julgado).",
+        "url": "https://informativos.trilhante.com.br/julgados/stj-hc-783927-mg"
+      },
+      {
+        "citacao": "Ministério da Saúde. Atenção Humanizada ao Abortamento: norma técnica. 2ª ed. Brasília, 2011.",
+        "url": "https://portaldeboaspraticas.iff.fiocruz.br/biblioteca/atencao-humanizada-ao-abortamento-norma-tecnica/"
+      }
     ]
   },
   "revalida-2025-1-q11": {
@@ -127,7 +174,10 @@
       "D": "Errada. Benzodiazepínico não trata a dependência de nicotina."
     },
     "fontes": [
-      {"citacao": "Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas do Tabagismo. Portaria Conjunta SCTIE/SAES nº 10, de 16 de abril de 2020.", "url": "https://www.gov.br/saude/pt-br/assuntos/pcdt/arquivos/2020/pcdt_tabagismo.pdf"}
+      {
+        "citacao": "Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas do Tabagismo. Portaria Conjunta SCTIE/SAES nº 10, de 16 de abril de 2020.",
+        "url": "https://www.gov.br/saude/pt-br/assuntos/pcdt/arquivos/2020/pcdt_tabagismo.pdf"
+      }
     ]
   },
   "revalida-2025-1-q12": {
@@ -139,7 +189,10 @@
       "D": "Errada. Não é a causa deste quadro."
     },
     "fontes": [
-      {"citacao": "Spitz L. Oesophageal atresia. Orphanet J Rare Dis. 2007;2:24. doi:10.1186/1750-1172-2-24.", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1884133/"}
+      {
+        "citacao": "Spitz L. Oesophageal atresia. Orphanet J Rare Dis. 2007;2:24. doi:10.1186/1750-1172-2-24.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1884133/"
+      }
     ]
   },
   "revalida-2025-1-q13": {
@@ -151,7 +204,279 @@
       "D": "Errada. A perda de peso nos primeiros dias é esperada."
     },
     "fontes": [
-      {"citacao": "Sociedade Brasileira de Pediatria. Uso e abuso de fórmulas infantis em maternidades em recém-nascidos sadios. Informe nº 5, agosto de 2017.", "url": "https://www.sbp.com.br/fileadmin/user_upload/Aleitamento_-_UsoAbuso_FI_Maternid_RN_Sadios.pdf"}
+      {
+        "citacao": "Sociedade Brasileira de Pediatria. Uso e abuso de fórmulas infantis em maternidades em recém-nascidos sadios. Informe nº 5, agosto de 2017.",
+        "url": "https://www.sbp.com.br/fileadmin/user_upload/Aleitamento_-_UsoAbuso_FI_Maternid_RN_Sadios.pdf"
+      }
+    ]
+  },
+  "revalida-2025-1-q14": {
+    "explicacao": "Menopausa cirúrgica (histerectomia com salpingooforectomia bilateral) aos 49 anos, com fogachos, insônia, alteração do humor e síndrome geniturinária: há indicação de terapia hormonal, e não existe contraindicação a ela. Como havia endometriose (cistos ovarianos e focos peritoneais), o estrogênio isolado pode reativar focos residuais; por isso se associa progestagênio ao estrogênio mesmo sem útero. A evidência nesse grupo é limitada, mas a revisão sobre o tema aponta que a reposição pode aumentar a recorrência da doença.",
+    "alternativas": {
+      "A": "Errada. Fitoterápicos não têm eficácia comprovada para sintomas intensos, e a endometriose não contraindica a terapia hormonal.",
+      "B": "Errada. A terapia hormonal não é contraindicada aqui; antidepressivos são alternativa quando há contraindicação.",
+      "C": "Errada. Sem útero, o estrogênio isolado seria a regra, mas o histórico de endometriose é a exceção que justifica associar progestagênio.",
+      "D": "Correta. Estrogênio associado a progestagênio, pelo risco de reativar focos de endometriose."
+    },
+    "fontes": [
+      {
+        "citacao": "Cochrane. Terapia hormonal para mulheres com endometriose e menopausa cirúrgica (CD005997). Revisão sistemática Cochrane.",
+        "url": "https://www.cochrane.org/pt/CD005997/terapia-hormonal-para-mulheres-com-endometriose-e-menopausa-cirurgica"
+      }
+    ],
+    "nota": "Não localizei recomendação específica da FEBRASGO sobre este ponto; a fonte é uma revisão Cochrane."
+  },
+  "revalida-2025-1-q15": {
+    "explicacao": "Mudança brusca de comportamento, dor abdominal sem causa aparente e relato de fotos íntimas da criança em rede social configuram suspeita de violência sexual. A suspeita basta: não é preciso confirmar a violência para notificar. O médico deve registrar no prontuário os dados de forma objetiva, sem interpretações, notificar no SINAN (notificação compulsória de violência) e comunicar o Conselho Tutelar, como exige o Estatuto da Criança e do Adolescente, articulando a rede de proteção junto com a equipe.",
+    "alternativas": {
+      "A": "Correta. Registro objetivo, notificação no SINAN e acionamento do Conselho Tutelar e da rede.",
+      "B": "Errada. Não se espera confirmação para notificar, e a perícia não é o primeiro passo na unidade de saúde.",
+      "C": "Errada. Confrontar os pais, sendo um deles possível agressor, pode expor a criança a mais risco.",
+      "D": "Errada. A obrigação legal do serviço de saúde é notificar e comunicar o Conselho Tutelar; a ida à delegacia não substitui isso."
+    },
+    "fontes": [
+      {
+        "citacao": "Ministério da Saúde. Vigilância de Violências e Acidentes (VIVA) e notificação no SINAN.",
+        "url": "https://www.gov.br/saude/pt-br/composicao/svsa/inqueritos-de-saude/viva-sinan"
+      },
+      {
+        "citacao": "Brasil. Estatuto da Criança e do Adolescente (Lei nº 8.069/1990), art. 13 (comunicação obrigatória ao Conselho Tutelar de suspeita ou confirmação de maus-tratos) e art. 245."
+      }
+    ]
+  },
+  "revalida-2025-1-q16": {
+    "explicacao": "Etilista crônico que parou de beber há 48 horas e evolui com agitação, confusão mental, tremores, sudorese, taquicardia e hipertensão: é delirium tremens, a forma grave da abstinência alcoólica (delirium associado à síndrome de abstinência). O tratamento se baseia em suporte clínico e benzodiazepínicos, que no quadro grave são dados por via intravenosa, como o diazepam. Também se faz tiamina antes da glicose para prevenir a encefalopatia de Wernicke.",
+    "alternativas": {
+      "A": "Errada. Antipsicóticos não tratam a abstinência e reduzem o limiar convulsivo; são no máximo adjuvantes.",
+      "B": "Correta. Delirium tremens tratado com benzodiazepínico intravenoso.",
+      "C": "Errada. A hipertensão aqui é consequência da hiperatividade adrenérgica da abstinência, não uma encefalopatia hipertensiva.",
+      "D": "Errada. Mesmo diagnóstico equivocado; o controle da pressão vem com o tratamento da abstinência."
+    },
+    "fontes": [
+      {
+        "citacao": "Schuckit MA. Recognition and Management of Withdrawal Delirium (Delirium Tremens). N Engl J Med. 2014;371(22):2109-2113. doi:10.1056/NEJMra1407298.",
+        "url": "https://doi.org/10.1056/NEJMra1407298"
+      }
+    ]
+  },
+  "revalida-2025-1-q17": {
+    "explicacao": "Para adulto saudável em cirurgia eletiva, as diretrizes da Sociedade Americana de Anestesiologistas recomendam jejum de 6 horas para refeição leve e de 8 horas para refeição completa (gordurosa), e permitem líquidos claros (água, chá, suco sem polpa) até 2 horas antes da anestesia. Jejuns prolongados não reduzem o risco de aspiração e causam desconforto e desidratação.",
+    "alternativas": {
+      "A": "Errada. Jejum de 12 horas para sólidos e 8 horas para líquidos é desnecessariamente longo.",
+      "B": "Correta. Sólidos 6 a 8 horas e líquidos claros 2 horas.",
+      "C": "Errada. Bebida proteica não é líquido claro, e 4 horas para sólidos é pouco.",
+      "D": "Errada. Água pode ser tomada até 2 horas antes; 10 horas para sólidos é excessivo."
+    },
+    "fontes": [
+      {
+        "citacao": "American Society of Anesthesiologists. Practice Guidelines for Preoperative Fasting and the Use of Pharmacologic Agents to Reduce the Risk of Pulmonary Aspiration. Anesthesiology. 2017;126(3):376-393. doi:10.1097/ALN.0000000000001452.",
+        "url": "https://doi.org/10.1097/ALN.0000000000001452"
+      },
+      {
+        "citacao": "American Society of Anesthesiologists. 2023 Practice Guidelines for Preoperative Fasting: atualização modular (líquidos com carboidrato, goma de mascar, pediatria). Anesthesiology. 2023;138:132-151."
+      }
+    ]
+  },
+  "revalida-2025-1-q18": {
+    "explicacao": "O período ideal de coleta do teste do pezinho é entre o 3º e o 5º dia de vida, depois de pelo menos 48 horas de amamentação. A coleta pode ser feita até o 28º dia; depois disso é uma situação de exceção, mas o teste não deve ser negado: crianças que não foram triadas (por difícil acesso, negligência ou institucionalização, como neste caso) devem coletar assim que identificadas, com registro do motivo do atraso.",
+    "alternativas": {
+      "A": "Errada. Depois de 28 dias a coleta é excepcional, mas ainda pode e deve ser feita.",
+      "B": "Errada. O 3º ao 5º dia é o período ideal, não o único permitido.",
+      "C": "Errada. Coletar antes de 48 horas de vida aumenta o risco de falso-negativo (por exemplo, na fenilcetonúria).",
+      "D": "Correta. Coleta após o 28º dia é exceção permitida em casos como difícil acesso ou negligência."
+    },
+    "fontes": [
+      {
+        "citacao": "Ministério da Saúde. Triagem Neonatal Biológica: Manual Técnico. Brasília, 2016.",
+        "url": "https://catalogo.ipea.gov.br/uploads/630_1.pdf"
+      },
+      {
+        "citacao": "EBSERH, HUAB-UFRN. POP: coleta, armazenamento e transporte de amostras para triagem neonatal biológica (coleta ideal do 3º ao 5º dia, aceita até o 28º dia; depois, exceção).",
+        "url": "https://www.gov.br/hubrasil/pt-br/hospitais-universitarios/regiao-nordeste/huab-ufrn/documentos-institucionais/arquivos-documentos-institucionais-geral/pop-ups-006-coleta-armazenamento-e-transporte-de-amostras-de-sangue-para-triagem-neonatal-biologica.pdf"
+      }
+    ]
+  },
+  "revalida-2025-1-q19": {
+    "explicacao": "Pela classificação da FIGO, a linha de base normal é de 110 a 160 bpm, mas valores entre 100 e 110 bpm podem ocorrer em fetos normais, principalmente em gestações de termo avançado. Aqui a cardiotocografia tem todos os outros parâmetros normais (variabilidade e ausência de desacelerações patológicas) em gestação de 40 semanas, sem outros sinais de complicação: não há sofrimento fetal. A conduta é conservadora: medidas de reanimação intrauterina, como mudar a posição materna (decúbito lateral), e reavaliar a frequência cardíaca fetal, confirmando também que não se está captando o pulso materno.",
+    "alternativas": {
+      "A": "Errada. Não há sinais de sofrimento fetal que justifiquem cesariana.",
+      "B": "Errada. Ocitocina não está indicada; aumentar as contrações pode piorar a oxigenação fetal.",
+      "C": "Errada. Não há taquissistolia que justifique tocolítico.",
+      "D": "Correta. Medidas conservadoras e reavaliação da frequência cardíaca fetal."
+    },
+    "fontes": [
+      {
+        "citacao": "Classificação FIGO 2015 de cardiotocografia intraparto (tabela reproduzida em Semin Perinatol. 2016; linha de base 100-110 bpm pode ocorrer em fetos normais, sobretudo pós-termo).",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4983203/table/T3"
+      }
+    ],
+    "nota": "A alternativa correta inclui oxigênio materno; evidências mais recentes questionam o uso rotineiro de oxigênio para a mãe, o que não muda o gabarito da prova."
+  },
+  "revalida-2025-1-q20": {
+    "explicacao": "Pelo modelo transteórico de Prochaska e DiClemente, a contemplação é o estágio em que a pessoa reconhece o problema e suas consequências, mas ainda está ambivalente e sem plano concreto de mudança. O paciente admite a dificuldade de controle e o impacto na família, mas não relata nenhuma ação ou plano: está em contemplação. A abordagem indicada nesse estágio é a entrevista motivacional, explorando a ambivalência.",
+    "alternativas": {
+      "A": "Errada. Na ação a pessoa já está mudando o comportamento, o que não foi relatado.",
+      "B": "Correta. Reconhece o problema e está ambivalente: contemplação.",
+      "C": "Errada. Na pré-contemplação a pessoa não reconhece o problema; ele reconhece.",
+      "D": "Errada. Na preparação há plano de mudança para breve; a justificativa da alternativa descreve outra coisa."
+    },
+    "fontes": [
+      {
+        "citacao": "Prochaska JO, DiClemente CC, Norcross JC. In search of how people change: Applications to addictive behaviors. Am Psychol. 1992;47(9):1102-1114. doi:10.1037/0003-066X.47.9.1102.",
+        "url": "https://doi.org/10.1037/0003-066X.47.9.1102"
+      }
+    ]
+  },
+  "revalida-2025-1-q21": {
+    "explicacao": "A DPOC é confirmada pela relação VEF1/CVF pós-broncodilatador menor que 0,70 (aqui 0,55). A gravidade funcional pelo GOLD usa o VEF1 pós-broncodilatador em porcentagem do previsto: 1,73 ÷ 3,65 = 47%. GOLD 1 é VEF1 ≥ 80%, GOLD 2 de 50% a 79%, GOLD 3 de 30% a 49% e GOLD 4 abaixo de 30%. Com 47%, o paciente é GOLD 3 (grave).",
+    "alternativas": {
+      "A": "Errada. GOLD 1 exige VEF1 de pelo menos 80% do previsto.",
+      "B": "Errada. GOLD 2 vai de 50% a 79%.",
+      "C": "Correta. VEF1 de 47% do previsto: GOLD 3.",
+      "D": "Errada. GOLD 4 é VEF1 abaixo de 30%."
+    },
+    "fontes": [
+      {
+        "citacao": "Global Initiative for Chronic Obstructive Lung Disease (GOLD). Global Strategy for the Diagnosis, Management and Prevention of COPD, relatório 2025.",
+        "url": "https://goldcopd.org"
+      }
+    ]
+  },
+  "revalida-2025-1-q22": {
+    "explicacao": "Trauma por fragmento metálico em alta velocidade com laceração e saída de conteúdo gelatinoso (vítreo) é lesão de globo ocular aberto. Antes do oftalmologista, a conduta é proteger o olho com escudo rígido sem pressionar (nunca curativo compressivo), evitar qualquer medicação tópica, iniciar antibiótico sistêmico com boa penetração ocular, como uma fluoroquinolona, para prevenir endoftalmite, verificar a vacinação antitetânica, e manter jejum, analgesia e antiemético para evitar aumento da pressão intraocular. A tomografia de órbitas é o exame para pesquisar corpo estranho.",
+    "alternativas": {
+      "A": "Errada. Irrigar e manipular o olho aberto pode extruir conteúdo ocular, e esperar 6 horas atrasa a conduta.",
+      "B": "Correta. Escudo rígido, fluoroquinolona sistêmica e profilaxia antitetânica.",
+      "C": "Errada. Colírio de corticoide não deve ser usado no globo aberto, e a radiografia é inferior à tomografia.",
+      "D": "Errada. Colírios e curativo oclusivo compressivo são contraindicados no globo aberto."
+    },
+    "fontes": [
+      {
+        "citacao": "High risk and low prevalence diseases: Open globe injury. Am J Emerg Med. (revisão).",
+        "url": "https://ajemjournal.com/article/S0735-67572200741-0/fulltext"
+      }
+    ]
+  },
+  "revalida-2025-1-q24": {
+    "explicacao": "Gestante hipertensa crônica com dor abdominal súbita, hipertonia uterina, sangramento vaginal escuro, choque (PA 80 x 60 mmHg, perda de consciência) e bradicardia fetal grave (50 bpm): é descolamento prematuro de placenta. Com feto vivo e parto vaginal não iminente (colo fechado), a conduta é estabilizar a mãe (acesso venoso, reposição volêmica, decúbito lateral, preparo de hemoderivados) e fazer cesárea imediata. Na placenta prévia, o sangramento é vermelho vivo e indolor, e o útero tem tônus normal.",
+    "alternativas": {
+      "A": "Correta. Descolamento de placenta; estabilizar a mãe e cesárea imediata.",
+      "B": "Errada. Com feto vivo em sofrimento e colo fechado, induzir parto vaginal atrasaria a extração fetal.",
+      "C": "Errada. O quadro não é de placenta prévia (dor, hipertonia, sangue escuro).",
+      "D": "Errada. Diagnóstico errado e via de parto inadequada."
+    },
+    "fontes": [
+      {
+        "citacao": "Ministério da Saúde. Manual de Gestação de Alto Risco. Brasília: Ministério da Saúde, 2022.",
+        "url": "https://bvsms.saude.gov.br/bvs/publicacoes/manual_gestacao_alto_risco.pdf"
+      },
+      {
+        "citacao": "Maternidade Escola da UFRJ. Protocolo assistencial: descolamento prematuro da placenta (feto vivo: parto o mais rápido possível, preferencialmente por cesariana).",
+        "url": "https://www.me.ufrj.br/images/pdfs/protocolos/obstetricia/descolamento_prematuro_da_placenta.pdf"
+      }
+    ]
+  },
+  "revalida-2025-1-q25": {
+    "explicacao": "Os materiais do Ministério da Saúde sobre a saúde do povo cigano/Romani e a literatura sobre saúde mental dessa população apontam depressão e suicídio como problemas relevantes, com mulheres especialmente afetadas, e o racismo (ciganofobia) e outras violências como determinantes. A Política Nacional de Atenção Integral à Saúde do Povo Cigano/Romani reconhece a ciganofobia como forma de racismo institucional que os serviços devem combater. As demais alternativas são generalizações sobre um povo que, como diz o próprio enunciado, não é homogêneo.",
+    "alternativas": {
+      "A": "Errada. Generaliza a organização das comunidades e restringe o acesso das mulheres à saúde.",
+      "B": "Correta. Depressão e suicídio, com maior incidência em mulheres, ligados ao racismo e a outras violências.",
+      "C": "Errada. Generalização: a forma de liderança varia entre as comunidades.",
+      "D": "Errada. O nomadismo não é a regra hoje; grande parte vive em moradia fixa."
+    },
+    "fontes": [
+      {
+        "citacao": "Ministério da Saúde. Subsídios para o Cuidado à Saúde do Povo Cigano. Brasília, 2016.",
+        "url": "https://www.icict.fiocruz.br/sites/www.icict.fiocruz.br/files/Saude-dos-Povos-Ciganos.pdf"
+      },
+      {
+        "citacao": "Saúde mental dos povos ciganos: revisão de literatura integrativa. Ciência & Saúde Coletiva (SciELO).",
+        "url": "https://www.scielo.br/j/csc/a/dj6JgyTnZhSwP9bfkfNCSrF/?lang=pt"
+      }
+    ]
+  },
+  "revalida-2025-1-q26": {
+    "explicacao": "Exacerbação de DPOC (piora da dispneia, aumento e purulência da expectoração há 5 dias) com sinais de gravidade: confusão mental, torpor e cianose sugerem insuficiência respiratória com hipercapnia. A conduta obrigatória é internar e iniciar corticoide sistêmico (por exemplo, prednisona 40 mg por 5 dias), junto com broncodilatadores de curta ação, antibiótico (há escarro purulento), oxigênio controlado e avaliação de ventilação não invasiva. Corticoide inalatório não trata a exacerbação.",
+    "alternativas": {
+      "A": "Errada. Rebaixamento de consciência e cianose impedem o tratamento ambulatorial.",
+      "B": "Errada. Corticoide inalatório não trata exacerbação, e o paciente precisa ser internado.",
+      "C": "Errada. A internação está certa, mas o corticoide deve ser sistêmico.",
+      "D": "Correta. Corticoide sistêmico e internação."
+    },
+    "fontes": [
+      {
+        "citacao": "Global Initiative for Chronic Obstructive Lung Disease (GOLD). Global Strategy for the Diagnosis, Management and Prevention of COPD, relatório 2025.",
+        "url": "https://goldcopd.org"
+      }
+    ]
+  },
+  "revalida-2025-1-q27": {
+    "explicacao": "Jovem com dor epigástrica e periumbilical que se localiza no quadrante inferior direito, náuseas, hiporexia, dor à tosse, dissociação de temperatura axilo-retal e leucocitose com desvio: apendicite aguda. A presença de poucos piócitos na urina pode ocorrer porque o apêndice inflamado fica próximo do ureter, e não indica infecção urinária. O achado que completa o diagnóstico é a descompressão dolorosa no ponto de McBurney (sinal de Blumberg), situado entre a espinha ilíaca anterossuperior e o umbigo.",
+    "alternativas": {
+      "A": "Errada. Punho-percussão lombar dolorosa (Giordano) sugere pielonefrite.",
+      "B": "Errada. Crepitação por gás na parede sugere infecção necrotizante de partes moles.",
+      "C": "Errada. Dor no hipocôndrio direito à inspiração profunda é o sinal de Murphy da colecistite.",
+      "D": "Correta. Descompressão dolorosa no ponto de McBurney."
+    },
+    "fontes": [
+      {
+        "citacao": "Di Saverio S et al. Diagnosis and treatment of acute appendicitis: 2020 update of the WSES Jerusalem guidelines. World J Emerg Surg. 2020. doi:10.1186/s13017-020-00306-3.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7386163/"
+      }
+    ]
+  },
+  "revalida-2025-1-q28": {
+    "explicacao": "Lactente nascido com 28 semanas, com 5 meses de vida, às vésperas da sazonalidade do vírus sincicial respiratório (VSR). Pelo protocolo vigente na época da prova, prematuros nascidos com até 28 semanas e 6 dias, no primeiro ano de vida, tinham indicação de palivizumabe (anticorpo monoclonal contra o VSR) durante a sazonalidade, além dos cuidados gerais (lavagem das mãos, evitar aglomerações e contato com pessoas resfriadas, aleitamento materno).",
+    "alternativas": {
+      "A": "Errada. A vacina da influenza só pode ser aplicada a partir dos 6 meses de idade.",
+      "B": "Correta (na época da prova). Palivizumabe e cuidados de prevenção.",
+      "C": "Errada. Não há indicação de encaminhar à infectologia; a prevenção do VSR cabe ao pediatra.",
+      "D": "Errada. Omalizumabe é anti-IgE, usado em asma e urticária, e não previne infecções."
+    },
+    "fontes": [
+      {
+        "citacao": "Ministério da Saúde. Nota Técnica nº 109/2025: nirsevimabe na prevenção do VSR (substitui o palivizumabe no SUS).",
+        "url": "https://sbim.org.br/images/Nirsevimabe_Nota_Tecnica_109.pdf_2025-10-02.pdf"
+      },
+      {
+        "citacao": "Conitec/Ministério da Saúde. Relatório de recomendação: nirsevimabe para prevenção do VSR (2025).",
+        "url": "https://www.gov.br/conitec/pt-br/midias/consultas/relatorios/2025/sociedade/relatorio-para-a-sociedade-499-nirsevimabe-vsr.pdf"
+      }
+    ],
+    "nota": "Atualização: o nirsevimabe foi incorporado ao SUS em 2025 e passou a ser oferecido a partir de fevereiro de 2026, substituindo o palivizumabe, em dose única por sazonalidade. Hoje, este lactente receberia nirsevimabe."
+  },
+  "revalida-2025-1-q29": {
+    "explicacao": "Febre, cefaleia, artralgia leve e exantema por volta do 4º-5º dia, com plaquetopenia acentuada (28.000/mm³) e hematócrito normal, em gestante: a principal hipótese é dengue. Pelas diretrizes do Ministério da Saúde, gestantes estão entre as condições clínicas especiais e exigem acompanhamento mais rigoroso; com plaquetopenia importante, a conduta da alternativa (internar, hidratar, analgesia com dipirona e controlar as plaquetas diariamente) é a adequada. AINE e AAS são contraindicados na dengue.",
+    "alternativas": {
+      "A": "Correta. Dengue em gestante com plaquetopenia importante: internação, hidratação, dipirona e controle de plaquetas.",
+      "B": "Errada. Na chikungunya predomina artralgia intensa, e a plaquetopenia não costuma ser tão acentuada; liberar a paciente seria inseguro.",
+      "C": "Errada. A zika costuma ter febre baixa ou ausente, exantema pruriginoso e conjuntivite, sem plaquetopenia tão marcada.",
+      "D": "Errada. Sem sangramento, transfusão de plaquetas não está indicada, e liberar após transfusão seria inadequado."
+    },
+    "fontes": [
+      {
+        "citacao": "Ministério da Saúde. Dengue: diagnóstico e manejo clínico: adulto e criança. 6ª ed. Brasília, 2024.",
+        "url": "https://portaldeboaspraticas.iff.fiocruz.br/wp-content/uploads/2024/02/dengue-manejo-clinico.pdf"
+      },
+      {
+        "citacao": "FEBRASGO. Arboviroses na gestação (fluxo de atendimento).",
+        "url": "https://www.febrasgo.org.br/fluxopdf/assets/pdf/Arboviroses.pdf"
+      }
+    ]
+  },
+  "revalida-2025-1-q30": {
+    "explicacao": "A poluição do ar associa-se a maior risco de doenças cardiovasculares e metabólicas, como hipertensão e diabetes, e de doenças alérgicas, como a dermatite atópica. Reduzir a exposição individual, por exemplo fechando as janelas nos horários de tráfego intenso, é uma ação de promoção da saúde coerente com as recomendações sobre clima e saúde. As outras alternativas trazem orientações erradas ou que não são de promoção da saúde.",
+    "alternativas": {
+      "A": "Correta. Poluição do ar aumenta risco cardiometabólico e alérgico; reduzir a exposição é promoção da saúde.",
+      "B": "Errada. Monocultura para biocombustível não é ação de promoção da saúde e tem impactos socioambientais.",
+      "C": "Errada. No calor, vasodilatação e desidratação tendem a baixar a pressão; aumentar anti-hipertensivo por conta própria pode causar hipotensão.",
+      "D": "Errada. Educação sobre clima e saúde nas escolas é recomendada, adaptada à idade."
+    },
+    "fontes": [
+      {
+        "citacao": "The 2024 report of the Lancet Countdown on health and climate change: facing record-breaking threats from delayed action. The Lancet, 2024.",
+        "url": "https://iums.org/media/foto-articoli/128/varie/IUMS%20The%202024%20report%20of%20the%20Lancet%20Countdown%20on%20climate%20change%20(Lancet%202024).pdf"
+      }
     ]
   }
 }

@@ -359,6 +359,7 @@ a { color: var(--accent); overflow-wrap: anywhere; }
         el("p", { class: "ia", text: "Elaborada com IA para justificar o gabarito oficial, com base nas fontes abaixo. Confira a recomendação na fonte." }),
         el("p", { text: ex.explicacao })
       ]);
+      if (ex.nota) box2.appendChild(el("div", { class: "aviso", text: ex.nota }));
       if (ex.alternativas) {
         var ula = el("ul");
         Object.keys(ex.alternativas).sort().forEach(function (l) {
@@ -460,7 +461,9 @@ a { color: var(--accent); overflow-wrap: anywhere; }
     filtrar(false);
   });
   document.addEventListener("keydown", function (e) {
-    if (e.target.tagName === "INPUT" || e.target.tagName === "SELECT" || e.metaKey || e.ctrlKey || e.altKey) return;
+    var t = e.target;
+    var digitando = (t.tagName === "INPUT" && t.type !== "checkbox") || t.tagName === "SELECT" || t.tagName === "TEXTAREA";
+    if (digitando || e.metaKey || e.ctrlKey || e.altKey) return;
     var q = lista[pos];
     if (e.key === "ArrowRight" && pos < lista.length - 1) { pos++; mostrar(); }
     else if (e.key === "ArrowLeft" && pos > 0) { pos--; mostrar(); }

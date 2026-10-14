@@ -112,7 +112,7 @@ def main():
                         q["gabarito"] or "", "sim" if q["anulada"] else "", q["situacao_gabarito"],
                         "sim" if q["tem_imagem"] else "", "sim" if q["tem_tabela"] else "",
                         q["observacao"], q["fonte"], " | ".join(r["url"] for r in q["resolucoes"]),
-                        "\n\n".join(filter(None, [e.get("explicacao", ""), comentarios])),
+                        "\n\n".join(filter(None, [e.get("explicacao", ""), e.get("nota", ""), comentarios])),
                         " | ".join(f["citacao"] + (f" {f['url']}" if f.get("url") else "")
                                    for f in e.get("fontes", []))])
 

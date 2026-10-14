@@ -41,7 +41,7 @@ por busca (existência, autoria, ano, endereço); o texto integral não foi aber
 recomendação na fonte. O `montar_banco.py` avisa se uma explicação marcar como correta uma letra
 diferente do gabarito oficial.
 
-Feitas até agora: Revalida 2025.1, questões 1 a 13 (12 válidas; a 7 foi anulada).
+Feitas até agora: Revalida 2025.1, questões 1 a 30 (28 válidas; a 7 e a 23 foram anuladas).
 
 ## Como refazer o banco
 
