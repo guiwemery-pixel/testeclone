@@ -1,7 +1,11 @@
 # Banco de questões
 
 Questões de provas de residência médica, ENAMED e Revalida, com gabarito oficial,
-em `questoes/banco.csv` (abre no Excel) e `questoes/banco.json`.
+em `questoes/banco.html` (página para estudar, funciona offline), `questoes/banco.csv`
+(abre no Excel) e `questoes/banco.json`.
+
+A página `banco.html` filtra por prova, área e palavra, corrige ao clicar na alternativa,
+mostra os links de correção da prova e guarda o progresso no próprio navegador.
 
 ## O que tem
 
@@ -44,6 +48,9 @@ python3 scripts/importar_prova_pdf.py --prova caderno.pdf --paginas 2-27 \
 
 # Junta tudo em questoes/banco.json e questoes/banco.csv
 python3 scripts/montar_banco.py
+
+# Gera a página questoes/banco.html
+python3 scripts/gerar_html.py
 ```
 
 Use sempre o gabarito da mesma versão (tipo) do caderno.
