@@ -78,8 +78,21 @@ def main():
 
     with open("questoes/resolucoes.json", encoding="utf-8") as f:
         resolucoes = json.load(f)
+    explicacoes = {}
+    for caminho in sorted(glob.glob("dados/explicacoes/*.json")):
+        with open(caminho, encoding="utf-8") as f:
+            explicacoes.update({k: v for k, v in json.load(f).items() if not k.startswith("_")})
+    ids = {q["id"] for q in banco}
+    for orfa in sorted(set(explicacoes) - ids):
+        print(f"aviso: explicação sem questão correspondente: {orfa}")
     for q in banco:
         q["resolucoes"] = resolucoes.get(f"{q['instituicao']} {q['ano']}", [])
+        q["explicacao"] = explicacoes.get(q["id"])
+        # A explicação tem de defender o gabarito oficial, nunca outra letra.
+        comentadas = (q["explicacao"] or {}).get("alternativas", {})
+        corretas = [l for l, t in comentadas.items() if t.startswith("Correta")]
+        if comentadas and corretas != [q["gabarito"]]:
+            print(f"aviso: {q['id']}: explicação marca {corretas} como correta, gabarito oficial {q['gabarito']}")
 
     with open("questoes/banco.json", "w", encoding="utf-8") as f:
         json.dump(banco, f, ensure_ascii=False, indent=1)
@@ -89,19 +102,25 @@ def main():
         w.writerow(["id", "instituicao", "ano", "numero", "area", "subarea", "topico", "enunciado",
                     "alternativa_A", "alternativa_B", "alternativa_C", "alternativa_D", "alternativa_E",
                     "gabarito", "anulada", "situacao_gabarito", "tem_imagem", "tem_tabela",
-                    "observacao", "fonte", "resolucoes"])
+                    "observacao", "fonte", "resolucoes", "explicacao", "fontes_explicacao"])
         for q in banco:
             a = q["alternativas"]
+            e = q["explicacao"] or {}
+            comentarios = "\n".join(f"{l}) {t}" for l, t in sorted(e.get("alternativas", {}).items()))
             w.writerow([q["id"], q["instituicao"], q["ano"], q["numero"] or "", q["area"], q["subarea"],
                         q["topico"], q["enunciado"], *[a.get(l, "") for l in "ABCDE"],
                         q["gabarito"] or "", "sim" if q["anulada"] else "", q["situacao_gabarito"],
                         "sim" if q["tem_imagem"] else "", "sim" if q["tem_tabela"] else "",
-                        q["observacao"], q["fonte"], " | ".join(r["url"] for r in q["resolucoes"])])
+                        q["observacao"], q["fonte"], " | ".join(r["url"] for r in q["resolucoes"]),
+                        "\n\n".join(filter(None, [e.get("explicacao", ""), comentarios])),
+                        " | ".join(f["citacao"] + (f" {f['url']}" if f.get("url") else "")
+                                   for f in e.get("fontes", []))])
 
     provas = {}
     for q in banco:
         provas.setdefault(f"{q['instituicao']} {q['ano']}", []).append(q)
-    print(f"{len(banco)} questões ({unidas} página(s) salva(s) unida(s) à prova oficial)")
+    print(f"{len(banco)} questões ({unidas} página(s) salva(s) unida(s) à prova oficial), "
+          f"{sum(1 for q in banco if q['explicacao'])} com explicação")
     for nome, qs in sorted(provas.items()):
         print(f"  {nome:16} {len(qs):4} questões, {sum(q['anulada'] for q in qs)} anuladas, "
               f"gabarito {qs[0]['situacao_gabarito']}, {len(qs[0]['resolucoes'])} link(s) de resolução")

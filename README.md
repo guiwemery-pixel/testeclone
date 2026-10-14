@@ -31,6 +31,18 @@ Cuidados:
 - Os links de resolução são páginas de cursinhos encontradas por busca, por prova (não por
   questão). O texto delas não é copiado para o banco.
 
+## Explicações
+
+`dados/explicacoes/<prova>.json` traz explicações elaboradas com IA para justificar o gabarito
+oficial: por que a alternativa certa está certa, um comentário por alternativa e as fontes.
+Fontes aceitas: diretrizes do Ministério da Saúde, sociedades médicas brasileiras, CDC/FDA e
+revisões ou diretrizes em NEJM, Lancet, JAMA, BMJ e periódicos BMC. Cada fonte foi localizada
+por busca (existência, autoria, ano, endereço); o texto integral não foi aberto, então confira a
+recomendação na fonte. O `montar_banco.py` avisa se uma explicação marcar como correta uma letra
+diferente do gabarito oficial.
+
+Feitas até agora: Revalida 2025.1, questões 1 a 13 (12 válidas; a 7 foi anulada).
+
 ## Como refazer o banco
 
 ```bash

@@ -1,0 +1,157 @@
+{
+  "_sobre": {
+    "autoria": "Explicações elaboradas com IA (Claude) para justificar o gabarito oficial do INEP.",
+    "verificacao": "Cada fonte foi localizada por busca na web em 14/10/2026 (existência, autoria, ano e endereço). O texto integral dos documentos não pôde ser aberto neste ambiente; confira a recomendação específica na fonte antes de usar clinicamente."
+  },
+  "revalida-2025-1-q01": {
+    "explicacao": "Bradicardia (FC 45 bpm) sintomática, mas hemodinamicamente estável: PA 120 x 70 mmHg, lúcido, perfusão normal, sem dor torácica nem congestão. Pelo algoritmo de bradicardia da AHA, a instabilidade é definida por hipotensão, alteração aguda do estado mental, sinais de choque, dor torácica isquêmica ou insuficiência cardíaca aguda; sem esses sinais, a conduta é monitorizar, deixar o marca-passo transcutâneo disponível e chamar o especialista. O ECG (imagem não reproduzida aqui) sugere bloqueio atrioventricular avançado, situação em que o paciente sintomático costuma precisar de avaliação para marca-passo definitivo, e não de alta.",
+    "alternativas": {
+      "A": "Errada. Bradicardia sintomática com bloqueio AV avançado exige monitorização e avaliação para marca-passo, não alta para ambulatório.",
+      "B": "Correta. Paciente estável: monitorização, marca-passo transcutâneo à disposição e avaliação do cardiologista.",
+      "C": "Errada. Atropina e marca-passo imediato são para o paciente instável; além disso, a atropina costuma ser ineficaz em bloqueios abaixo do nó AV.",
+      "D": "Errada. Dopamina é opção para bradicardia instável que não respondeu à atropina, o que não é o caso."
+    },
+    "fontes": [
+      {"citacao": "Panchal AR et al. Part 3: Adult Basic and Advanced Life Support: 2020 American Heart Association Guidelines for CPR and ECC. Circulation. 2020;142(16 Suppl 2):S366-S468. PMID 33081529.", "url": "https://pubmed.ncbi.nlm.nih.gov/33081529/"},
+      {"citacao": "Kusumoto FM et al. 2018 ACC/AHA/HRS Guideline on the Evaluation and Management of Patients With Bradycardia and Cardiac Conduction Delay. Circulation. 2019;140:e382-e482.", "url": "https://acc.org/Latest-in-Cardiology/ten-points-to-remember/2018/11/05/15/12/2018-ACC-AHA-HRS-Guideline-on-Bradycardia"}
+    ]
+  },
+  "revalida-2025-1-q02": {
+    "explicacao": "Uso crônico de AINE, dor epigástrica súbita e intensa, peritonite difusa (abdome tenso, descompressão dolorosa nos quatro quadrantes), sinais de choque e pneumoperitônio na tomografia (ar livre no recesso hepatofrênico) formam o quadro clássico de úlcera péptica perfurada. A conduta é ressuscitação volêmica, antibiótico, inibidor de bomba de prótons e cirurgia de urgência (em geral, rafia com epiplonplastia).",
+    "alternativas": {
+      "A": "Correta. AINE + dor epigástrica abrupta + peritonite + ar livre = úlcera perfurada.",
+      "B": "Errada. Pancreatite aguda não causa pneumoperitônio; a dor costuma irradiar para o dorso.",
+      "C": "Errada. Colecistite causa dor em hipocôndrio direito (Murphy) e não produz ar livre na cavidade.",
+      "D": "Errada. Diverticulite começa em fossa ilíaca esquerda; a história de AINE com dor epigástrica aponta para úlcera."
+    },
+    "fontes": [
+      {"citacao": "Tarasconi A et al. Perforated and bleeding peptic ulcer: WSES guidelines. World J Emerg Surg. 2020. doi:10.1186/s13017-019-0283-9.", "url": "https://wjes.biomedcentral.com/track/pdf/10.1186/s13017-019-0283-9"}
+    ]
+  },
+  "revalida-2025-1-q03": {
+    "explicacao": "Puberdade precoce em meninas é o surgimento de caracteres sexuais secundários antes dos 8 anos. Aqui há telarca (M2) aos 7 anos e 6 meses, estatura no escore Z +2 (crescimento acelerado em relação ao peso) e idade óssea 2 anos à frente da cronológica. Avanço de idade óssea acima de 1 ano e aceleração do crescimento indicam ação estrogênica sustentada, o que caracteriza puberdade precoce central e não telarca precoce isolada. O passo seguinte é dosar LH (basal ou após estímulo) e avaliar o sistema nervoso central conforme o caso.",
+    "alternativas": {
+      "A": "Correta. Telarca antes dos 8 anos com idade óssea avançada e crescimento acelerado indica puberdade precoce central.",
+      "B": "Errada. Diferença de 2 anos entre idade óssea e cronológica é significativa.",
+      "C": "Errada. A telarca não é achado isolado: há aceleração do crescimento e da maturação óssea.",
+      "D": "Errada. P1 significa ausência de pelos pubianos, ou seja, não há pubarca."
+    },
+    "fontes": [
+      {"citacao": "Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas da Puberdade Precoce Central. Portaria Conjunta nº 13, de 27 de julho de 2022.", "url": "https://www.gov.br/saude/pt-br/assuntos/pcdt/arquivos/2022/portaria-conjunta-no-13-pcdt-puberdade-precoce-central.pdf"}
+    ]
+  },
+  "revalida-2025-1-q04": {
+    "explicacao": "Sangramento vaginal em pequena quantidade com colo uterino fechado define ameaça de abortamento. O beta-hCG subiu de 10.000 para 23.400 mUI/mL em 2 dias, mais que dobrando, o que é compatível com gestação em evolução. A conduta é expectante, com orientações (repouso relativo, como na alternativa) e reavaliação; a ultrassonografia transvaginal confirma gestação tópica e vitalidade.",
+    "alternativas": {
+      "A": "Errada. Não há dor nem instabilidade, e a curva de beta-hCG é a esperada para gestação normal; laparotomia é reservada à ectópica rota com instabilidade.",
+      "B": "Correta. Colo fechado, sangramento discreto e beta-hCG em ascensão adequada: ameaça de abortamento, conduta expectante.",
+      "C": "Errada. No aborto incompleto há eliminação parcial do conteúdo, geralmente com colo aberto e beta-hCG em queda.",
+      "D": "Errada. No aborto em evolução (inevitável) o colo está aberto e o sangramento é maior."
+    },
+    "fontes": [
+      {"citacao": "Ministério da Saúde. Manual de Gestação de Alto Risco. Brasília: Ministério da Saúde, 2022.", "url": "https://bvsms.saude.gov.br/bvs/publicacoes/manual_gestacao_alto_risco.pdf"}
+    ]
+  },
+  "revalida-2025-1-q05": {
+    "explicacao": "Prurido de piora noturna com pápulas escoriadas em dobras, em ambiente superlotado, é escabiose. Em instituições, todos os contatos devem ser tratados ao mesmo tempo, mesmo sem sintomas, junto com lavagem de roupas de uso pessoal, cama e banho e limpeza do ambiente. A ivermectina oral é dada por peso (200 mcg/kg) e repetida após cerca de 14 dias, porque não mata os ovos; para 98 kg, isso dá cerca de 3 comprimidos de 6 mg por dose.",
+    "alternativas": {
+      "A": "Errada. A dose de ivermectina é por peso (um comprimido de 6 mg é insuficiente para 98 kg), e restringir visitas ou isolar sem saída não faz parte do controle da escabiose comum.",
+      "B": "Errada. Inseticidas e fumigantes ambientais não são recomendados, e não há prescrição para tratar o doente e os contatos.",
+      "C": "Errada. Fluconazol é antifúngico e não tem ação contra o Sarcoptes scabiei.",
+      "D": "Correta. Higiene de roupas e ambiente e ivermectina por peso, repetida, para todos da cela."
+    },
+    "fontes": [
+      {"citacao": "CDC. Sexually Transmitted Infections Treatment Guidelines, 2021: Ectoparasitic infections (escabiose: ivermectina 200 mcg/kg VO, repetida em 14 dias). Resumo do National STD Curriculum (Universidade de Washington).", "url": "https://cdn.std.uw.edu/pdf/2021-guidelines/ectoparasitic-infections/core-concept/all"},
+      {"citacao": "Federal Bureau of Prisons (EUA). Management of Scabies: Clinical Guidance (tratamento simultâneo de casos e contatos em instituições).", "url": "https://www2.fed.bop.gov/resources/pdfs/scabies_cg.pdf"}
+    ]
+  },
+  "revalida-2025-1-q06": {
+    "explicacao": "Houve falha da terapia tripla com claritromicina, e o enunciado atribui o insucesso à resistência a macrolídeos e fluoroquinolonas. Portanto, o esquema de resgate não pode conter claritromicina nem levofloxacino. A opção indicada é a terapia quádrupla com bismuto (inibidor de bomba de prótons, bismuto, uma tetraciclina e metronidazol) por 14 dias; na alternativa, a doxiciclina ocupa o lugar da tetraciclina. A deficiência de IgA é um distrator: não muda a escolha do esquema.",
+    "alternativas": {
+      "A": "Errada. Usa levofloxacino, ao qual há resistência, e dura só 7 dias.",
+      "B": "Errada. Usa claritromicina e levofloxacino, as duas classes com resistência.",
+      "C": "Correta. Quádrupla com bismuto, sem macrolídeo nem quinolona, por 14 dias.",
+      "D": "Errada. Mantém o levofloxacino."
+    },
+    "fontes": [
+      {"citacao": "Coelho LGV et al. IVth Brazilian Consensus Conference on Helicobacter pylori infection. Arq Gastroenterol. 2018;55(2):97-121. doi:10.1590/S0004-2803.201800000-20.", "url": "https://doi.org/10.1590/S0004-2803.201800000-20"},
+      {"citacao": "Malfertheiner P et al. Management of Helicobacter pylori infection: the Maastricht VI/Florence consensus report. Gut. 2022. doi:10.1136/gutjnl-2021-326105.", "url": "https://doi.org/10.1136/gutjnl-2021-326105"}
+    ]
+  },
+  "revalida-2025-1-q08": {
+    "explicacao": "O quadro é típico de apendicite aguda: dor que começa difusa (periumbilical) e migra para a fossa ilíaca direita, com vômitos e inapetência. O achado que indica avaliação cirúrgica é a descompressão brusca dolorosa (sinal de Blumberg), porque traduz irritação peritoneal.",
+    "alternativas": {
+      "A": "Errada. A dor difusa inicial é visceral e inespecífica.",
+      "B": "Correta. Descompressão brusca dolorosa indica peritonite localizada e pede avaliação cirúrgica.",
+      "C": "Errada. Dor com vômitos ocorre em muitas condições não cirúrgicas, como gastroenterite.",
+      "D": "Errada. Massa em fossa ilíaca direita (plastrão) não foi descrita neste caso."
+    },
+    "fontes": [
+      {"citacao": "Di Saverio S et al. Diagnosis and treatment of acute appendicitis: 2020 update of the WSES Jerusalem guidelines. World J Emerg Surg. 2020. doi:10.1186/s13017-020-00306-3.", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7386163/"}
+    ]
+  },
+  "revalida-2025-1-q09": {
+    "explicacao": "Losartana (bloqueador do receptor de angiotensina) é contraindicada na gestação por toxicidade fetal e deve ser suspensa assim que a gravidez é confirmada, com troca por anti-hipertensivo seguro, como a metildopa. Hipertensão crônica é fator de alto risco para pré-eclâmpsia, o que indica AAS em baixa dose a partir de 12 semanas; a obesidade (IMC 35) e a idade (39 anos) somam risco. Na primeira consulta, avaliam-se as lesões de órgãos-alvo (função renal, proteinúria, ECG, fundo de olho), que também servem de base para identificar pré-eclâmpsia sobreposta mais tarde.",
+    "alternativas": {
+      "A": "Correta. Suspender o BRA, iniciar metildopa e AAS e pesquisar lesão de órgãos-alvo.",
+      "B": "Errada. Mantém a losartana, que é contraindicada.",
+      "C": "Errada. Suspende a losartana sem substituir o anti-hipertensivo e sem iniciar AAS.",
+      "D": "Errada. Mantém a losartana; a investigação de hipertensão secundária não é a prioridade inicial."
+    },
+    "fontes": [
+      {"citacao": "FEBRASGO. Protocolo nº 19 (Obstetrícia): Hipertensão na gestação. Coleção de protocolos 2024-2025.", "url": "https://www.febrasgo.org.br/images/pec/CNE_pdfs/fps2024/Protocolos%20cole%C3%A7%C3%A3o%202024-2025/n19%20-%20O%20-%20Hipertens%C3%A3o%20na%20gesta%C3%A7%C3%A3o.pdf"},
+      {"citacao": "Ministério da Saúde. Manual de Gestação de Alto Risco. Brasília: Ministério da Saúde, 2022.", "url": "https://bvsms.saude.gov.br/bvs/publicacoes/manual_gestacao_alto_risco.pdf"},
+      {"citacao": "FDA. Bula do Cozaar (losartana): advertência em destaque 'Fetal toxicity: discontinue as soon as possible when pregnancy is detected' (cópia da bula aprovada pela FDA).", "url": "https://rsc.niaid.nih.gov/sites/default/files/losartan-potassium_cozaar_pi-december-2015.pdf"}
+    ]
+  },
+  "revalida-2025-1-q10": {
+    "explicacao": "No Brasil, o aborto só é permitido em caso de estupro, de risco de vida para a gestante e de anencefalia; fora dessas situações, como neste caso, o médico não pode realizá-lo nem encaminhá-lo, mas deve acolher sem julgamento, informar sobre os aspectos clínicos e legais e garantir o sigilo. O Código de Ética Médica proíbe revelar fato conhecido no exercício da profissão, e o STJ já considerou ilícita a prova obtida por comunicação do médico à polícia em caso de aborto. Orientar os sinais de alarme (sangramento intenso, febre, dor) que exigem procurar atendimento é uma medida de redução de danos, e o atendimento pós-abortamento deve ser garantido.",
+    "alternativas": {
+      "A": "Errada. Impõe o pré-natal a quem não deseja a gestação, sem antes acolher e informar.",
+      "B": "Errada. A paciente não tem direito legal ao aborto nesta situação, e a abordagem por intimidação não é ética.",
+      "C": "Correta. Informação clínica e legal, sigilo e orientação sobre sinais de alarme.",
+      "D": "Errada. Não existe obrigação de registrar boletim de ocorrência; revelar o fato viola o sigilo médico."
+    },
+    "fontes": [
+      {"citacao": "Conselho Federal de Medicina. Código de Ética Médica (Resolução CFM nº 2.217/2018), art. 73: sigilo profissional."},
+      {"citacao": "STJ. HC 783.927-MG (2023): sigilo médico e comunicação às autoridades em aborto (resumo do julgado).", "url": "https://informativos.trilhante.com.br/julgados/stj-hc-783927-mg"},
+      {"citacao": "Ministério da Saúde. Atenção Humanizada ao Abortamento: norma técnica. 2ª ed. Brasília, 2011.", "url": "https://portaldeboaspraticas.iff.fiocruz.br/biblioteca/atencao-humanizada-ao-abortamento-norma-tecnica/"}
+    ]
+  },
+  "revalida-2025-1-q11": {
+    "explicacao": "Fumante de 20 cigarros/dia há 25 anos, com tentativas frustradas e sintomas de abstinência (irritação, ansiedade): há dependência de nicotina. O Protocolo do Ministério da Saúde tem a abordagem cognitivo-comportamental como base do tratamento e associa medicamentos, como a terapia de reposição de nicotina e a bupropiona, para quem tem dependência. A combinação das duas tem mais sucesso que cada uma isolada.",
+    "alternativas": {
+      "A": "Errada. Reposição de nicotina sem abordagem comportamental é menos eficaz.",
+      "B": "Correta. Terapia comportamental associada à reposição de nicotina.",
+      "C": "Errada. Sem apoio medicamentoso, a abstinência que ela já relata dificulta a cessação.",
+      "D": "Errada. Benzodiazepínico não trata a dependência de nicotina."
+    },
+    "fontes": [
+      {"citacao": "Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas do Tabagismo. Portaria Conjunta SCTIE/SAES nº 10, de 16 de abril de 2020.", "url": "https://www.gov.br/saude/pt-br/assuntos/pcdt/arquivos/2020/pcdt_tabagismo.pdf"}
+    ]
+  },
+  "revalida-2025-1-q12": {
+    "explicacao": "Polidrâmnio na gestação, salivação excessiva logo após o nascimento e tosse, engasgo e cianose na primeira mamada são a apresentação clássica da atresia de esôfago: o recém-nascido não consegue deglutir a saliva. Diante de polidrâmnio ou excesso de secreção, deve-se passar sonda pela boca ou pelo nariz ao nascer; na atresia, ela não progride até o estômago. Em cerca de 86% dos casos há fístula traqueoesofágica distal, e metade tem outras malformações (associação VACTERL).",
+    "alternativas": {
+      "A": "Correta. Polidrâmnio + sialorreia + engasgo e cianose às mamadas.",
+      "B": "Errada. Atresia gástrica (pilórica) causa vômitos não biliosos e distensão alta, sem sialorreia.",
+      "C": "Errada. Atresia intestinal causa vômitos (biliosos se distal à papila) e distensão, não engasgo com saliva.",
+      "D": "Errada. Não é a causa deste quadro."
+    },
+    "fontes": [
+      {"citacao": "Spitz L. Oesophageal atresia. Orphanet J Rare Dis. 2007;2:24. doi:10.1186/1750-1172-2-24.", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1884133/"}
+    ]
+  },
+  "revalida-2025-1-q13": {
+    "explicacao": "175 g de 3.500 g correspondem a 5% (175 ÷ 3.500 = 0,05). A perda de peso nos primeiros dias de vida é fisiológica; em recém-nascidos em aleitamento materno exclusivo a perda média é de cerca de 5%, e perdas acima de 7 a 10% pedem avaliação da amamentação. A criança está corada, hidratada e com eliminações presentes, então não há motivo de preocupação nem indicação de fórmula.",
+    "alternativas": {
+      "A": "Correta. 5%, dentro do esperado.",
+      "B": "Errada. O cálculo está errado (não é 15%), e não há indicação de complemento.",
+      "C": "Errada. O cálculo está errado (não é 15%).",
+      "D": "Errada. A perda de peso nos primeiros dias é esperada."
+    },
+    "fontes": [
+      {"citacao": "Sociedade Brasileira de Pediatria. Uso e abuso de fórmulas infantis em maternidades em recém-nascidos sadios. Informe nº 5, agosto de 2017.", "url": "https://www.sbp.com.br/fileadmin/user_upload/Aleitamento_-_UsoAbuso_FI_Maternid_RN_Sadios.pdf"}
+    ]
+  }
+}

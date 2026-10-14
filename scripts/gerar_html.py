@@ -8,7 +8,7 @@ import json
 
 CAMPOS = ["id", "instituicao", "ano", "numero", "area", "subarea", "topico", "enunciado",
           "alternativas", "gabarito", "anulada", "situacao_gabarito", "tem_imagem",
-          "tem_tabela", "observacao"]
+          "tem_tabela", "observacao", "explicacao"]
 
 MODELO = r"""<!doctype html>
 <html lang="pt-BR">
@@ -127,6 +127,15 @@ a { color: var(--accent); overflow-wrap: anywhere; }
 .barra { height: 6px; border-radius: 3px; background: var(--surface-2); overflow: hidden; margin-top: 3px; }
 .barra span { display: block; height: 100%; background: var(--accent); }
 .rodape { margin-top: 18px; font-size: .8rem; color: var(--muted); }
+.explic { margin-top: 16px; padding: 12px 14px; border-radius: 10px; background: var(--surface-2); border: 1px solid var(--border); }
+.explic h3 { font-size: .95rem; margin: 0 0 2px; }
+.explic .ia { font-size: .78rem; color: var(--muted); margin: 0 0 8px; }
+.explic p { margin: 0 0 10px; }
+.explic ul { margin: 0 0 10px; padding-left: 0; list-style: none; }
+.explic li { margin: 4px 0; font-size: .92rem; }
+.explic li b { display: inline-block; min-width: 1.4em; }
+.explic .fontes { font-size: .85rem; }
+.explic .fontes li { margin: 6px 0; }
 </style>
 </head>
 <body>
@@ -153,6 +162,7 @@ a { color: var(--accent); overflow-wrap: anywhere; }
         <div class="checks" style="align-self:end">
           <label><input type="checkbox" id="f-anuladas"> Incluir anuladas</label>
           <label><input type="checkbox" id="f-imagem" checked> Incluir com imagem</label>
+          <label><input type="checkbox" id="f-explicacao"> Só com explicação</label>
         </div>
       </div>
       <div class="linha">
@@ -170,7 +180,7 @@ a { color: var(--accent); overflow-wrap: anywhere; }
   </details>
 
   <p class="rodape">Questões de provas oficiais (INEP: Revalida e ENAMED; EBSERH: ENARE), com gabarito oficial.
-  O progresso fica salvo só neste navegador. Atalhos no teclado: A–E responde, ← → navega.</p>
+  As explicações foram elaboradas com IA a partir das fontes citadas em cada uma. O progresso fica salvo só neste navegador. Atalhos no teclado: A–E responde, ← → navega.</p>
 </div>
 
 <script type="application/json" id="dados">__DADOS__</script>
@@ -210,7 +220,7 @@ a { color: var(--accent); overflow-wrap: anywhere; }
 
   var $ = function (id) { return document.getElementById(id); };
   var fProva = $("f-prova"), fArea = $("f-area"), fBusca = $("f-busca"), fSit = $("f-situacao"),
-      fAnul = $("f-anuladas"), fImg = $("f-imagem");
+      fAnul = $("f-anuladas"), fImg = $("f-imagem"), fExp = $("f-explicacao");
 
   function contar(chave) {
     var c = {};
@@ -233,6 +243,9 @@ a { color: var(--accent); overflow-wrap: anywhere; }
   if (f.situacao) fSit.value = f.situacao;
   if (typeof f.anuladas === "boolean") fAnul.checked = f.anuladas;
   if (typeof f.imagem === "boolean") fImg.checked = f.imagem;
+  if (typeof f.explicacao === "boolean") fExp.checked = f.explicacao;
+  var comExplicacao = Q.filter(function (q) { return q.explicacao; }).length;
+  fExp.parentNode.lastChild.textContent = " Só com explicação (" + comExplicacao + ")";
 
   function embaralhar(arr) {
     for (var i = arr.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var t = arr[i]; arr[i] = arr[j]; arr[j] = t; }
@@ -248,6 +261,7 @@ a { color: var(--accent); overflow-wrap: anywhere; }
       if (fArea.value && q.area !== fArea.value) return false;
       if (!fAnul.checked && q.anulada) return false;
       if (!fImg.checked && q.tem_imagem) return false;
+      if (fExp.checked && !q.explicacao) return false;
       var r = estado.respostas[q.id];
       if (sit === "novas" && r) return false;
       if (sit === "erradas" && !(r && r !== q.gabarito)) return false;
@@ -259,7 +273,8 @@ a { color: var(--accent); overflow-wrap: anywhere; }
     pos = 0;
     if (manterAtual && atual) { var i = lista.indexOf(atual); if (i >= 0) pos = i; }
     estado.filtros = { prova: fProva.value, area: fArea.value, busca: fBusca.value, situacao: sit,
-      anuladas: fAnul.checked, imagem: fImg.checked, atual: lista[pos] ? lista[pos].id : null };
+      anuladas: fAnul.checked, imagem: fImg.checked, explicacao: fExp.checked,
+      atual: lista[pos] ? lista[pos].id : null };
     gravar();
     $("contagem").innerHTML = "";
     $("contagem").appendChild(el("b", { text: String(lista.length) }));
@@ -337,6 +352,33 @@ a { color: var(--accent); overflow-wrap: anywhere; }
     }
     if (q.observacao) card.appendChild(el("div", { class: "tax", style: "margin-top:10px", text: q.observacao }));
 
+    if (resp && q.explicacao) {
+      var ex = q.explicacao;
+      var box2 = el("div", { class: "explic" }, [
+        el("h3", { text: "Explicação" }),
+        el("p", { class: "ia", text: "Elaborada com IA para justificar o gabarito oficial, com base nas fontes abaixo. Confira a recomendação na fonte." }),
+        el("p", { text: ex.explicacao })
+      ]);
+      if (ex.alternativas) {
+        var ula = el("ul");
+        Object.keys(ex.alternativas).sort().forEach(function (l) {
+          ula.appendChild(el("li", null, [el("b", { text: l + ")" }), " " + ex.alternativas[l]]));
+        });
+        box2.appendChild(ula);
+      }
+      if (ex.fontes && ex.fontes.length) {
+        box2.appendChild(el("h3", { text: "Fontes" }));
+        var ulf = el("ul", { class: "fontes" });
+        ex.fontes.forEach(function (fo) {
+          ulf.appendChild(el("li", null, fo.url
+            ? [el("a", { href: fo.url, target: "_blank", rel: "noopener noreferrer", text: fo.citacao })]
+            : [fo.citacao]));
+        });
+        box2.appendChild(ulf);
+      }
+      card.appendChild(box2);
+    }
+
     if (resp || q.anulada) {
       var info = PROVAS[q._prova] || {};
       var links = el("div", { class: "links" });
@@ -409,7 +451,7 @@ a { color: var(--accent); overflow-wrap: anywhere; }
       } }));
   }
 
-  [fProva, fArea, fSit, fAnul, fImg].forEach(function (c) { c.addEventListener("change", function () { filtrar(false); }); });
+  [fProva, fArea, fSit, fAnul, fImg, fExp].forEach(function (c) { c.addEventListener("change", function () { filtrar(false); }); });
   var espera;
   fBusca.addEventListener("input", function () { clearTimeout(espera); espera = setTimeout(function () { filtrar(false); }, 200); });
   $("b-embaralhar").addEventListener("click", function () {
