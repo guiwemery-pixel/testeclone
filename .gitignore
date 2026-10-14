@@ -1,0 +1,5 @@
+# Páginas salvas pelo navegador trazem nome e e-mail da conta logada
+*.mhtml
+*.mht
+paginas/
+__pycache__/
