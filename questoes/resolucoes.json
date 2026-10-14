@@ -1,0 +1,32 @@
+{
+  "_sobre": "Links de correções gratuitas por prova, encontrados por busca na web. São páginas de terceiros (cursinhos); o texto delas não é copiado para o banco. O gabarito que vale é sempre o oficial da banca.",
+  "REVALIDA 2021": [
+    {"titulo": "Estratégia MED: gabarito Revalida 2021", "url": "https://med.estrategia.com/portal/evento-emed/gabarito-revalida-2021/"}
+  ],
+  "REVALIDA 2024.1": [
+    {"titulo": "Estratégia MED: gabarito definitivo e correção da prova objetiva 2024.1", "url": "https://med.estrategia.com/portal/noticias/gabarito-recursos-revalida-inep-2024-1/"}
+  ],
+  "REVALIDA 2024.2": [
+    {"titulo": "Estratégia MED: gabarito, recursos e correção ao vivo das 100 questões (YouTube)", "url": "https://med.estrategia.com/portal/noticias/revalida-inep-2024-2-gabarito-recursos/"},
+    {"titulo": "Eu Médico Residente: gabarito definitivo Revalida 2024.2", "url": "https://www.eumedicoresidente.com.br/post/gabarito-definitivo-revalida-inep-segundo-semestre"}
+  ],
+  "REVALIDA 2025.1": [
+    {"titulo": "Estratégia MED: gabarito e correção comentada Revalida 2025.1", "url": "https://med.estrategia.com/portal/eventos/revalida-inep-2025-1-gabarito-recursos/"},
+    {"titulo": "Medway: etapas, cronograma e gabaritos oficiais Revalida 2025.1", "url": "https://www.medway.com.br/conteudos/revalida-inep-2025-1-confira-o-resultado-da-prova-objetiva/"}
+  ],
+  "ENAMED 2025": [
+    {"titulo": "Estratégia MED: e-book gratuito Prova comentada ENAMED e ENARE 2025/26 (exige cadastro)", "url": "https://portal.estrategia.com/?p=21310"},
+    {"titulo": "Estratégia MED: gabarito definitivo ENAMED/ENARE 2025", "url": "https://med.estrategia.com/portal/noticias/enamed-enare-2025-2026-gabarito-residencia-medica-acesso-direto/"}
+  ],
+  "ENAMED 2026": [
+    {"titulo": "Sanar: gabarito não oficial e correção do ENAMED 2026", "url": "https://sanarmed.com/gabarito-nao-oficial-do-enamed-2026-confira-a-correcao-da-prova/"},
+    {"titulo": "MedCof: gabarito ENAMED 2026 e live de correção comentada", "url": "https://www.grupomedcof.com.br/blog/?p=49170"}
+  ],
+  "ENARE 2023": [
+    {"titulo": "Estratégia MED: gabarito, caderno e correção ao vivo das 100 questões de Acesso Direto (YouTube)", "url": "https://med.estrategia.com/portal/noticias/gabarito-recursos-enare-2023-2024/"}
+  ],
+  "ENARE 2021": [],
+  "_geral": [
+    {"titulo": "Estratégia MED: provas comentadas de residência médica (acesso gratuito)", "url": "https://med.estrategia.com/portal/tag/provas-comentadas-de-residencia-medica/"}
+  ]
+}
